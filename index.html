@@ -81,7 +81,7 @@
         <div
           class="nav-btn btn"
           id="hidden-btn">
-          <a href="#">contact</a>
+          <a href="#contact-me">contact</a>
         </div>
       </div>
     </head>
@@ -1185,6 +1185,37 @@
    //////////////////////////////////////////////////////////////////////// 
    END OF HEADER CONTENT////////////////////////////////////////////////// 
   -->
+
+  <form name="contact" method="POST" data-netlify="true" class="form-submission" id="contact-me">
+    <h2 class="contact-me-form">CONTACT ME</h2>
+  <div class="input-content-container">
+   <div class="inp-content-1">
+     <p class="input-item">
+    <label class="contact-input">Enter Name: <input type="text" name="name"/></label>
+  </p>
+  <p class="input-item">
+    <label class="contact-input">Enter Email: <input type="email"/></label>
+  </p>
+   </div>
+
+   <div class="text-area-">
+    <p class="input-message">
+    <label class="message-area">Message: <textarea name="message" placeholder="Enter your message here....." maxlength="450"></textarea></label>
+  </p>
+   </div>
+
+   <div class="submit-content">
+     <p class="submit-btn-1">
+    <button type="submit" class="sub-btn">Send</button>
+  </p>
+   </div>
+
+  </div>
+  
+</form>
+
+
+
     </main>
 
     <!-- footer section -->
@@ -1307,11 +1338,11 @@
               Subscribe to our newsletter to get our news delivered to you
             </p>
 
-            <form action="">
+            <form action="POST" class="sub-scribe">
               <div class="input-content">
                 <input
                   type="text"
-                  placeholder="Email Address" />
+                  placeholder="Email Address" class="input-sub"/>
                 <button class="btn-join">Join</button>
               </div>
             </form>
