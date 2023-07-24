@@ -1597,12 +1597,6 @@ input {
   justify-self: center;
 }
 
- /* .input-content-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 350px);
-    gap: 4em;
-  } */
-
 
 @media screen and (width > 767px) {
   .input-content-container{
@@ -1612,10 +1606,3 @@ input {
   }
 }
 
-/* @media screen and (width > 767px) and (width < 850) {
-  .input-content-container{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    gap: 2em;
-  }
-} */
